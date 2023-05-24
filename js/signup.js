@@ -37,7 +37,7 @@ console.log("Sending data")
     "Nationality":nationality,
     "FullName":name
   }
-  const url  = 'https://51.11.178.214:8080/user/'+user_Data.Username+'-'+user_Data.Password+'-'+user_Data.FullName+'-'+user_Data.Nationality
+  const url  = 'https://51.11.178.214:127.0.0.1/user/'+user_Data.Username+'-'+user_Data.Password+'-'+user_Data.FullName+'-'+user_Data.Nationality
 http.open("POST" , url , true)
 console.log(user_Data)
 http.send()
