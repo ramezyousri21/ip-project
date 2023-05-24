@@ -27,7 +27,7 @@ document.getElementById("signupForm").addEventListener("submit", function(event)
   
   console.log("Sending data")
     //Data Sending to API backend
-    const http = new XMLHttpRequest()
+    const http = new XMLHttpsRequest()
     const user_Data = {
       "Username":email,
       "Password":password,
