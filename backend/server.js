@@ -38,6 +38,6 @@ app.put('/user/:username-:newdata' , (req , res)=>{
     res.send(Delete(req.params.username))
 })
 
-app.listen(8000 , ()=>{
+app.listen(80 , ()=>{
     console.log("Listening....")
 })
