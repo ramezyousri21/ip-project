@@ -37,7 +37,7 @@ console.log("Sending data")
     "Nationality":nationality,
     "FullName":name
   }
-  const url  = 'http://localhost:8000/user/'+user_Data.Username+'-'+user_Data.Password+'-'+user_Data.FullName+'-'+user_Data.Nationality
+  const url  = 'http://localhost:80/user/'+user_Data.Username+'-'+user_Data.Password+'-'+user_Data.FullName+'-'+user_Data.Nationality
 http.open("POST" , url , true)
 console.log(user_Data)
 http.send()
