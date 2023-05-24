@@ -32,7 +32,7 @@ document.getElementById("signupForm").addEventListener("submit", function(event)
       "Username":email,
       "Password":password,
     }
-    const url  = 'https://51.11.178.214:127.0.0.1/user/'+user_Data.Username+'-'+user_Data.Password
+    const url  = 'https://51.11.178.214:8000/user/'+user_Data.Username+'-'+user_Data.Password
   http.open("GET" , url , true)
   console.log(user_Data)
   http.send()
