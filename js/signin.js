@@ -27,12 +27,12 @@ document.getElementById("signupForm").addEventListener("submit", function(event)
   
   console.log("Sending data")
     //Data Sending to API backend
-    const http = new XMLHttpsRequest()
+    const http = new XMLHttpRequest()
     const user_Data = {
       "Username":email,
       "Password":password,
     }
-    const url  = 'http://51.11.178.214:8080/user/'+user_Data.Username+'-'+user_Data.Password
+    const url  = 'https://51.11.178.214:8080/user/'+user_Data.Username+'-'+user_Data.Password
   http.open("GET" , url , true)
   console.log(user_Data)
   http.send()
