@@ -1,0 +1,109 @@
+.light {
+    --mainColor: #64bcf4;
+    --hoverColor: #5bacdf;
+    --backgroundColor: #f1f8fc;
+    --darkOne: #312f3a;
+    --darkTwo: #45424b;
+    --lightOne: #919191;
+    --lightTwo: #aaa;
+  }
+
+  .dark {
+    --mainColor: #64bcf4;
+    --hoverColor: #5bacdf;
+    --backgroundColor: #192e3a;
+    --darkOne: #f3f3f3;
+    --darkTwo: #fff;
+    --lightOne: #ccc;
+    --lightTwo: #e7e3e3;
+  }
+
+  *,
+  *::before,
+  *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: "Poppins", sans-serif;
+  }
+
+  
+  .logo h3 {
+    color: var(--darkTwo);
+    font-size: 1.55rem;
+    line-height: 1.2;
+    font-weight: 700;
+  }
+
+
+
+  
+  
+  
+  label {
+    display: block;
+    font-size: 1.1rem;
+    color: var(--darkOne);
+    margin-bottom: 0.5rem;
+  }
+  
+  
+  
+ 
+  
+ 
+    
+  .team {
+    padding: 5rem 0;
+    background-color: var(--backgroundColor);
+  }
+
+  .team .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .section-title {
+    font-size: 2.5rem;
+    color: var(--darkTwo);
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .team-members {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+
+  .team-member {
+    flex-basis: 300px;
+    margin: 1.5rem;
+    text-align: center;
+  }
+
+  .team-member img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+  }
+
+  .member-name {
+    font-size: 1.4rem;
+    color: var(--darkOne);
+    margin-bottom: 0.5rem;
+  }
+
+  .member-role {
+    font-size: 1.1rem;
+    color: var(--lightOne);
+    margin-bottom: 1.5rem;
+  }
